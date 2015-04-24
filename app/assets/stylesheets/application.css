@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+.product {
+  /*width: auto;*/
+  display: table; 
+  background-color: #eeeeee;
+  padding: 2em;
+}
+
+.product h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+table td:first-child {
+  font-weight: bold;
+  text-align: right;
+}
+
+.buttons {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.buttons input {
+  width: 100px;
+}
+
+.buttons form {
+  display: inline;
+
+}
