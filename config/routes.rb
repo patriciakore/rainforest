@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   resources :users, only: [:new, :create]
   resources :products do
-    resources :reviews, only: [:show, :create, :destroy]
+  resources :reviews, only: [:show, :create, :destroy]
   end
 
   # The priority is based upon order of creation: first created -> highest priority.
